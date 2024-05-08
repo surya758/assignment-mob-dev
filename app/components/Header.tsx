@@ -7,7 +7,7 @@ type Props = {
 
 const Header = ({title}: Props) => {
   return (
-    <View style={{alignSelf: 'center'}}>
+    <View>
       <Text style={{fontSize: 20, fontWeight: 'bold'}}>{title}</Text>
     </View>
   )

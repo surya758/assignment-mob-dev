@@ -9,6 +9,7 @@ module.exports = function(api) {
           "@screens/*": ["./app/screens/*"],
           "@config/*": ["./app/config/*"],
           "@components": ["./app/components"],
+          "@utils/*": ["./app/utils/*"],
         }
       }]
     ]
